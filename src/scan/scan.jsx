@@ -79,7 +79,7 @@ const Scanner = () => {
         onError={handleError}
         onScan={handleScan}
         style={{ width: '100%', maxWidth: '400px', borderRadius: '5px', marginTop: '20px' }}
-        facingMode={'rear'}
+        facingMode="rear"
       />
       {qrValue && (
         <div style={{ borderRadius: '10px', marginTop: '20px', maxWidth: '400px', width: '100%' }}>
